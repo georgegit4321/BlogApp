@@ -1,0 +1,49 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:padding="20px"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username :"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter username"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:drawableLeft="@drawable/baseline_supervised_user_circle_24"
+        android:id="@+id/name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cardview_light_background"
+        android:text="Password :"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter password"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:id="@+id/pass"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+
+        android:id="@+id/login"/>
+
+</LinearLayout>

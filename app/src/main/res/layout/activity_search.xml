@@ -1,0 +1,30 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:background="#AEF6EF"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter title"
+        android:id="@+id/title"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:id="@+id/search"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back to menu"
+        android:id="@+id/menu"/>
+
+</LinearLayout>
